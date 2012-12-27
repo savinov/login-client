@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jtalks.login-client</groupId>
+    <artifactId>login-client</artifactId>
+    <version>1.0</version>
+
+    <repositories>
+        <repository>
+            <id>restlet</id>
+            <url>http://maven.restlet.org/</url>
+        </repository>
+        <repository>
+            <id>jtalks.org</id>
+            <name>jtalks.org nexus</name>
+            <url>http://repo.jtalks.org/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jtalks.poulpe</groupId>
+            <artifactId>poulpe-web-controller</artifactId>
+            <version>1.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>
